@@ -132,7 +132,7 @@ body.anti-aug .aug-exe:after {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 2.188rem;
-  text-shadow: 0px 0px 32px rgba(0, 0, 0, 0.8);
+  text-shadow: 0rem 0rem 2rem rgba(0, 0, 0, 0.8);
   color: white;
   width: 26.25rem;
 }
@@ -160,7 +160,7 @@ body.anti-aug .aug-exe:after {
   --aug-tl: 1.563rem;
   height: 100%;
   width: 100%;
-  padding: 20px;
+  padding: 1.25rem;
   color: rgba(255, 255, 255, 0.8);
   font-size: 0.75rem;
   line-height: 0.938rem;
@@ -294,7 +294,7 @@ body.anti-aug .aug-exe:after {
 .checkbox:before {
   padding: 0.5em;
   background: var(--bg, cyan);
-  border: 1px solid;
+  border: 0.063rem solid;
 }
 .checkbox:after {
   content: var(--message);
@@ -303,14 +303,14 @@ body.anti-aug .aug-exe:after {
 }
 
 .message_container {
-  filter: drop-shadow(0 0 8px cyan);
+  filter: drop-shadow(0 0 0.5rem cyan);
 }
 .message_container .message {
   background: #000;
-  --aug-border: 2px;
+  --aug-border: 0.125rem;
   --aug-border-bg: cyan;
-  width: calc(100% - 20px);
-  max-width: 640px;
+  width: calc(100% - 1.25rem);
+  max-width: 40rem;
   margin: 0 auto;
   overflow: hidden;
   transition: all 0.5s;
